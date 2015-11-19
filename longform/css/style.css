@@ -13,6 +13,9 @@ color: rgba(0, 0, 0, 0.74);
   font-weight: 400;
 
 }
+h2 {
+  margin: 0;
+}
 figure {
   margin: 0; /* resets the left margin in the figure*/
 }
