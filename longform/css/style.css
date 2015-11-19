@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Rye);
+
+body { /* sets the page defaults */
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124874/stone-BG.jpg) #baa696;
+font-family: georgia, serif;
+margin: 0;
+font-size: 20px;
+line-height: 1.33;
+color: rgba(0, 0, 0, 0.74);
+}
+.img_container {
+  font-family: 'Rye', cursive;
+  font-weight: 400;
+
+}
+figure { 
+  margin: 0; /* resets the left margin in the figure*/
+}
+
+figure img {
+  max-width: 100%; /* images will shrink to fit inside the main conent column*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+figcaption {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.img_container {
+  height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
+position: relative;
+}
+
+/* The main header */
+
+
+.head { /* the style of the first full width image section */ 
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124874/tuff.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
+}
+.head header h1 {
+  margin: 0;
+  font-size: 8vw;
+}
+.head header  {
+  position: absolute;
+  top: 40%;
+  right: 1em;
+width: 75%;
+  text-align: right;
+   /* the font size is resposnive to the page's width*/
+  color: #fff;
+  
+  
+}
+
+.sign {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  bottom: 0px;
+  animation-duration: 2.5s;
+  animation-delay: 1s;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124874/sign.png) no-repeat bottom left fixed;
+  background-size: 400px;
+}
+.sign img {
+  max-width: 100%;
+}
+.img_container {
+  /* mix-blend-mode: hue;*/
+   text-shadow:0 0 9px #000000;
+}
+
+section.flowers {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124874/IMG_2024.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+section.rocks {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124874/rocks_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.flowers h1, .rocks h1 {
+  font-size: 6vw;
+position: absolute;
+top: 30%;
+padding: 0 20%;
+text-align: center;
+color: #fff;
+}
+
+.tumble {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background: url(http://www.dundjinni.com/forums/uploads/heruca/BFD_Tumbleweed3_dar_hrc.png)
+}
+/* first section */
+.content {
+ width: 60%;
+  margin: 1em auto;
+  position: relative;
+  overflow: visible;
+}
+
+
+footer {
+width: 100%;
+height: 100px;
+background: #000;
+color: #eee;
+text-align: center;
+padding: 1em;
+}
