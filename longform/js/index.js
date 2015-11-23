@@ -60,6 +60,7 @@ function onYouTubeIframeAPIReady() {
     height: '100%',
     width: '100%',
     videoId: 'fBCAOjAS9d4',
+    controls: '0',
     events: {
       'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
@@ -85,3 +86,18 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo();
 }
+
+
+$(function () { // wait for document ready
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#bird_video", duration: 500})
+
+
+            .on("enter", function () {
+                player.playVideo();
+                })
+            .on("leave", function () {
+               player.pauseVideo();
+             })
+            .addTo(controller);
+  });
