@@ -144,3 +144,7 @@ padding: 1em;
   height: 100px;
   line-height: 100px;
 }
+#pretty {
+  position: relative;
+  top: 50vh;
+}

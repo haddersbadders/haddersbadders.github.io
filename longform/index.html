@@ -53,12 +53,16 @@ Each full screen image section has a class applied called .img_container and eac
 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
   </p>
 </section>
+<div id="pretty">
+
+</div>
 <section class="flowers img_container" id="flowers">
 <audio id="mountain" preload="auto" >
   <source src="audio/mountain.mp3" />
   <source src="audio/mountain.ogg" />
 </audio>
   <h1 class="wow fadeIn">Some pretty things in the desert</h1>
+
 </section>
 <section class="flowers_content content">
 <h2>Justo Parturient Ridiculus Consectetur</h2>
@@ -81,8 +85,11 @@ Each full screen image section has a class applied called .img_container and eac
   Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.
 </p>
 </section>
-<section class="birds img_container">
-  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fBCAOjAS9d4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<section class="birds img_container" id="bird_video">
+  <div id="player">
+
+  </div>
+  <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fBCAOjAS9d4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 </section>
 
 <section class="drink content">
@@ -137,6 +144,10 @@ Donec ullamcorper nulla non metus auctor fringilla.
 <p>
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor.
 </p>
+
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+
+
   </div>
   </section>
 </article>
