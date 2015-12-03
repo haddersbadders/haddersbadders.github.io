@@ -55,3 +55,11 @@ I've used ```<section>``` elements, but because the styles are controlled by cla
 Also included are [Animate.css](https://daneden.github.io/animate.css/) and [Wow.js](http://mynameismatthieu.com/WOW/). 
 
 Animate.css provides animation for elements and Wow.js allows control over these animations so they occur when scrolled to. 
+
+##YouTube
+
+YouTube is invoked using the [Youtube API](https://developers.google.com/youtube/) rather than just the iFrame embed. This is beacuase the YouTube video is paused until the user scrolls to it then pauses again once the user scrolls past. This is controlled in the js/index.js file using [ScrollMagic](http://scrollmagic.io/examples/index.html).
+
+##Audio 
+
+In the "flowers" section header, audio is embeded using the ```<audio>``` element. Playback is controlled in js/index.js using ScollMagic again so the audio file only plays when the user scrolls to the section and pauses when scrolled away.
