@@ -12,7 +12,7 @@ The structure is really quite simple: Content is broken down into sections using
 There are two types of ```<section>```that are differentiated using two different class names:
 
 - A content section, using the class name **content**
-- A header section, that uses the class name **img_header**
+- A header section, that uses the class name **img_container**
 
 
 
