@@ -49,3 +49,9 @@ because each different header section is different - they may have different bac
 ##Sections, DIVs or headers?
 
 I've used ```<section>``` elements, but because the styles are controlled by classes it doesn't really matter what elements are used. It could be ```<header class="rocks img_container">``` or ```<div class="rocks img_container">```. 
+
+##Effects 
+
+Also included are [Animate.css](https://daneden.github.io/animate.css/) and [Wow.js](http://mynameismatthieu.com/WOW/). 
+
+Animate.css provides animation for elements and Wow.js allows control over these animations so they occur when scrolled to. 
