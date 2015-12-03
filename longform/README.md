@@ -26,7 +26,7 @@ When you want some content, add:
 
 ```<section class="content"> //Some content </section> ```
 
-##The content section
+##The content sections
 The content section is used to put text and inline images in. Content in this section has a width of 60% and is centred. This is controlled by the **.content** selector in CSS.
 
 You can add additional classes to your content sections for further styling. For example changing the background colour:
@@ -35,3 +35,17 @@ You can add additional classes to your content sections for further styling. For
 with the CSS of 
 ``` .mountains {background: #CCD9E1; }```
 
+##The header sections
+
+The header sections are there to give nice big headers for content with full width image backgrounds. The ```.img_container``` class in CSS has only two properties: 
+
+1. ```height: 100vh``` which sets the height of the section to whatever the height of the viewport is
+2. ```position: relative``` enables absolute positioning of elements inside the section
+
+because each different header section is different - they may have different background images or colours - an additional class is applied to each header section and styled accordingly:
+
+```<section class="rocks img_container">``` with CSS of ```.rocks { background: url(path/to/image.jpg); }```
+
+##Sections, DIVs or headers?
+
+I've used ```<section>``` elements, but because the styles are controlled by classes it doesn't really matter what elements are used. It could be ```<header class="rocks img_container">``` or ```<div class="rocks img_container">```. 
