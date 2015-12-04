@@ -62,4 +62,4 @@ YouTube is invoked using the [Youtube API](https://developers.google.com/youtube
 
 ##Audio 
 
-In the "flowers" section header, audio is embeded using the ```<audio>``` element. Playback is controlled in js/index.js using ScollMagic again so the audio file only plays when the user scrolls to the section and pauses when scrolled away.
+In the "flowers" section header, audio is embeded using the ```<audio>``` element. Playback is controlled in js/index.js using ScollMagic. When the user scrolls to the trigger div, ScrollMagic plays the audio file and pauses when scrolled away.
