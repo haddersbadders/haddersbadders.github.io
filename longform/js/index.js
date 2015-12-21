@@ -63,7 +63,8 @@ function onYouTubeIframeAPIReady() {
     playerVars: {
       controls: 0,
       modestbranding: 0,
-      showinfo: 0
+      showinfo: 0,
+      loop: 1
     },
     events: {
       'onReady': onPlayerReady,
