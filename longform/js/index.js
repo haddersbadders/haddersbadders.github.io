@@ -64,7 +64,7 @@ function onYouTubeIframeAPIReady() {
       controls: 0,
       modestbranding: 0,
       showinfo: 0,
-      playlist: fBCAOjAS9d4,
+      
       loop: 1
     },
     events: {
