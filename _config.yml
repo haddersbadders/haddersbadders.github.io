@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               TEL Blog
+tagline:             'A blog about TEL'
+description:         'A place for me to write about technology enhanced learning. Made by <a href="https://twitter.com/hadders" target="_blank">@hadders</a>.'
+url:                 'http://haddersbadders.github.io'
+baseurl:             'http://haddersbadders.github.io'
+paginate:            5
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+paginate_path: "page:num"
+# About/contact
+author:
+  name:              Hadrian Cawthorne
+  url:               https://twitter.com/hadders
+  email:             haddersbadders@gmail.com
+
+# Custom vars
+version:             1.0.0
