@@ -17,7 +17,7 @@ The students were experimenting with different ways to express their ideas: from
 However, there were a couple of things I noticed. Students did not have the technical grounding to move the more adventurous ideas forward and they found Immersive, the platform we used for publishing, somewhat limiting.
 
 This wasn’t an exercise in developing technical skills but for exploring different ways of using media to tell stories. It seemed there were limits right from the start in that the general level of technical web literacy was low and this prevented many of the ideas from developing. This was not for want of trying from the students!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L44hA1XrY9E" frameborder="0" allowfullscreen></iframe> 
+
 For example: copying and pasting embed codes wasn’t a problem and many students remembered me teaching them basic HTML tags such as ```<img>```, but working with simple frameworks such as visual Diff tools was hard and anything requiring Javascript - impossible.
 
 When it came to assembling and publishing, some students were frustrated at the limitations of Immersive — a very easy to use long-form platform, but lacking in any kind of customisation.
