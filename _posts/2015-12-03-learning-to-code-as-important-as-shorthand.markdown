@@ -12,7 +12,7 @@ After a week or so of working with postgrad journalism students on long-form mul
 
 The students were experimenting with different ways to express their ideas: from mapping and infographics to visualisation, video, audio and photography. There was no lack of ideas from the students, from building interactive videos, using virtual reality all the way to creating highly interactive maps.
 
-##Limits
+#Limits
 
 However, there were a couple of things I noticed. Students did not have the technical grounding to move the more adventurous ideas forward and they found Immersive, the platform we used for publishing, somewhat limiting.
 
@@ -22,7 +22,7 @@ For example: copying and pasting embed codes wasn’t a problem and many student
 
 When it came to assembling and publishing, some students were frustrated at the limitations of Immersive — a very easy to use long-form platform, but lacking in any kind of customisation.
 
-##Coding and shorthand are enabling
+#Coding and shorthand are enabling
 
 Imagine sending a first year student out to cover a court story. They would find it incredibly difficult to write a report without first having a grounding in writing shorthand. They would be able to cobble something together from memory or the few bits of (possibly) inaccurate long-hand notes. Learning shorthand would enable them to write down court proceedings quickly and accurately, as they happened.
 
